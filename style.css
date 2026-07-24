@@ -266,12 +266,17 @@
  .card:hover::before{ opacity:1; }
 
  .card-icon{
- width:52px; height:52px; border-radius:14px;
- background: var(--accent-dim);
- display:flex; align-items:center; justify-content:center;
- margin-bottom:22px;
- font-size:1.4rem;
+ width:100%; border-radius:14px;
+ background: none;
+ display:block;
+ margin-bottom:0px;
+ overflow: hidden;
  }
+.card-icon img{
+ width: 100%;
+ height: auto;
+ display: block;
+ border-radius: 14px;}
 
  .card .num{ 
  font-family:'Outfit',sans-serif; font-size:0.8rem; 
