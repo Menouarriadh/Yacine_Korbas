@@ -290,12 +290,15 @@
  .about{ display:grid; grid-template-columns: 1fr 1fr; gap:70px; align-items:center; }
 
  .about-image{
- position:relative;
+ border-radius:20px;
+ overflow: hidden;
+ max-height: 500px;
  }
 
  .about-image img{
- width:100%; border-radius:20px;
- height: 100%; object-fit: cover;
+ width:100%;
+ height: 100%;
+  object-fit: cover;
   display: block;
  }
 
